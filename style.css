@@ -1,0 +1,44 @@
+
+body{
+    margin:0;
+    padding: 0;
+   display: flex;
+}
+
+#main-doc{
+width: 60%;
+}
+#navbar{
+  border-right: 2px solid black;
+  margin-right: 80px; 
+
+}
+li{
+    
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    list-style-type: none;
+    padding: 15px;
+}
+ul{
+margin: 0;
+padding: 0;  
+
+}
+a{
+    text-decoration: none;
+    
+}
+header{
+    font-weight: bold;
+    text-align: justify;
+}
+.codigo{
+    background:black;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+}
+@media (max-width:800px) {
+    html {
+        font-size: 3vw;
